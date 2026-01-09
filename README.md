@@ -28,7 +28,7 @@ Small reflections on improvement areas
 
 Challenging Problems and their codes
 
--- The codes can be found under the code/<date> folder
+-- The codes can be found under the code/ folder under the appropriate date
 
 🚀 Why this journal exists
 
