@@ -1,0 +1,21 @@
+Till now, I worked extensively on Java fundamentals and algorithmic thinking through pattern problems and number-theory utilities. I practiced modular function design (digit frequency, permutations nPr, GCD & LCM, prime factorization), handled edge cases, and improved input validation.
+
+I implemented and refined complex pattern problems including diamond patterns, hollow structures, swastik (Pattern-19), W-pattern (Pattern-20), Fibonacci triangle, Floyd’s triangle, and multiple state-driven pattern engines. My focus shifted from formula-guessing to invariant-based and state-based modeling, making patterns predictable and debuggable.
+
+I also improved my understanding of Euclid’s algorithm, digit extraction logic, permutation computation, and pattern geometry using coordinate conditions.
+
+Overall, I strengthened my loop control, condition design, state evolution modeling, and algorithm clarity.
+
+Some challenging problems: (YT Channel : Pepcoding | Playlist Name : DSA - Level 1)
+1. Fibonacci (#15)
+2. Inverse of a Number (#23)
+3. Rotate a number (#25)
+4. GCD and LCM (#27)
+5. Prime Factorization (#30)
+6. Benjamin Bulbs (#33)
+7. Pattern 6 (#45)
+8. Patter 10 (#53)
+9. Pattern 13 - Binomial Coefficients (#59)
+10. Pattern 15 (#63)
+11. Pattern 18 (#69)
+12. Pattern 19 - Reverse Swastik (#71)
