@@ -10,7 +10,6 @@ Each file is named by date:
 
 YYYY-MM-DD.md
 
-
 Example:
 
 2026-01-09.md
@@ -27,6 +26,10 @@ New concepts or mental models learned
 
 Small reflections on improvement areas
 
+Challenging Problems and their codes
+
+-- The codes can be found under the code/<date> folder
+
 🚀 Why this journal exists
 
 To build daily learning discipline
@@ -42,7 +45,5 @@ Java
 Algorithms & Data Structures
 
 🗓 Started On January 2026
-
-January 2026
 
 This journal is not about perfection — it’s about consistent growth
