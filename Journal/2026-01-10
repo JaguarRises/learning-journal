@@ -1,0 +1,9 @@
+Today I strengthened my understanding of number system conversions in Java. I realized why base-n numbers must be handled as strings instead of integers, especially when dealing with bases greater than 10 such as hexadecimal.
+
+I fixed my DecimalToAny implementation to correctly support bases up to 36 by mapping digits greater than 9 to characters using ASCII logic. I also refactored AnyToDecimal to accept string input and parse characters properly, allowing conversion from any base to decimal without limitations.
+
+This helped me clearly differentiate between numeric value computation and symbolic representation, which is critical in real-world systems.
+
+Problems Solved:
+1. DecimalToAny
+2. AnyToDecimal
