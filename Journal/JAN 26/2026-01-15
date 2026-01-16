@@ -1,0 +1,28 @@
+Skills Learned
+
+Developed a robust algorithm for adding two numbers represented as digit arrays using pointer-based invariants.
+
+Understood why right-aligned digit traversal (i, j, carry) is safer than length-difference logic.
+
+Practiced designing invariant-safe loops: while (i >= 0 || j >= 0 || carry > 0).
+
+Problems Solved
+
+Refactored a fragile length-based addition approach into a clean, minimal solution.
+
+Handled overflow carry without losing digits (e.g., 999 + 1 → 1000).
+
+Simplified printing logic by separating arithmetic correctness from formatting concerns.
+
+Progress Made
+
+Moved from test-case-driven fixes to reasoning with loop invariants.
+
+Gained confidence distinguishing works sometimes code from always correct algorithms.
+
+Achieved a production-quality solution that is reusable, concise, and edge‑case safe.
+
+Questions Tackled
+1. Linear Search
+2. Span of a array
+3. Sum of Two Arrays
