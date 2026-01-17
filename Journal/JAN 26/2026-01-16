@@ -1,0 +1,4 @@
+Today I solidified my understanding of digit-wise arithmetic using arrays, focusing on subtraction with proper borrow handling. I corrected key algorithmic issues by preserving input immutability, processing all digits of the larger number, and enforcing loop invariants. I validated edge cases and ensured correctness beyond sample tests. Overall, I progressed from “working code” to reasoning-driven, invariant-safe solutions that are clean, reusable, and robust.
+
+Problems Solved
+1. Difference of two arrays
