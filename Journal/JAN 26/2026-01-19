@@ -1,0 +1,5 @@
+Today I focused on strengthening my Core Java fundamentals through hands-on code examples and concept clarification. I gained a clear understanding of mutable strings using StringBuffer, including how capacity works, how methods like append, insert, and deleteCharAt modify the same object, and why this differs fundamentally from String immutability.
+
+I also solidified my understanding of the static keyword, learning how static variables belong to the class rather than objects, how memory is shared across instances, and why static members should be accessed using the class name. I built a strong mental model of object memory vs class memory, which clarified how Java manages data at runtime.
+
+Overall, today was about conceptual clarity and correctness, laying a solid Java foundation that will directly support cleaner design and better reasoning in future problem-solving.
