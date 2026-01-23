@@ -1,0 +1,35 @@
+Focus: Java, IntelliJ IDEA, SDK & Language Levels
+
+What I Learned
+
+Understood the difference between Java language features and IntelliJ IDE behavior.
+
+Learned that Java 21+ supports instance main() and unnamed classes, making public optional.
+
+Realized that psvm expansion depends on Project SDK and Language Level, not Java itself.
+
+Confirmed that Java 21 fully supports the classic public static void main(String[] args).
+
+Problems Solved
+
+Fixed psvm expanding to static void main() by:
+
+Changing Project SDK to Java 17
+
+Resetting IntelliJ’s expectations for modern Java features
+
+Identified IDE inspections and templates as the root cause—not a Java error.
+
+Progress Made
+
+Gained confidence in debugging tooling vs language issues.
+
+Built a clear mental model: Java defines what runs; IntelliJ defines what it suggests.
+
+Established a stable setup for DSA and interview-oriented Java development.
+
+Outcome
+
+Environment is now predictable and aligned with learning goals.
+
+Better control over IntelliJ configuration and Java versions.
