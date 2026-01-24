@@ -1,0 +1,23 @@
+What I learned
+
+Strengthened my understanding of method overriding, including runtime polymorphism, dynamic method dispatch, and the rules around @Override, access modifiers, final, and static.
+
+Learned how packages in Java organize code, prevent naming conflicts, and control access using visibility modifiers.
+
+Gained a high-level understanding of JUnit 5 and its role in professional Java development and automated testing.
+
+Problems I clarified
+
+Resolved confusion between overriding vs overloading.
+
+Understood how Java chooses overridden methods at runtime.
+
+Connected package structure to real-world project organization.
+
+Progress made
+
+Moved from knowing OOP concepts to understanding how they work together in real applications.
+
+Built confidence in Core Java fundamentals that are relevant for interviews and backend development.
+
+Laid groundwork for moving into testing and structured project design.
