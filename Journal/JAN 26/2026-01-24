@@ -1,0 +1,27 @@
+Skills Learned
+
+Understood polymorphism in depth, including compile-time (overloading) and runtime (overriding) polymorphism.
+
+Learned how Dynamic Method Dispatch works and how the JVM resolves overridden methods at runtime.
+
+Gained clarity on the final keyword—its use with variables, methods, and classes, and how it restricts polymorphism.
+
+Learned about the Object class as the root of the Java class hierarchy and its key methods (toString, equals, hashCode, getClass).
+
+Problems Solved / Concepts Clarified
+
+Removed confusion between reference type vs object type in method calls.
+
+Clearly differentiated == vs equals().
+
+Understood why hashCode() must align with equals().
+
+Connected final methods/classes to design and runtime behavior.
+
+Progress Made
+
+Moved from surface-level OOP understanding to runtime-level Java behavior.
+
+Built a strong conceptual foundation of Core Java expected in interviews.
+
+Increased confidence in reading, reasoning about, and explaining Java code.
