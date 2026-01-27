@@ -1,0 +1,23 @@
+Skills learned
+
+I strengthened my understanding of runtime polymorphism and how dynamic method dispatch works.
+
+I reinforced the role of the Object class and its core methods in everyday Java design.
+
+I clarified how the final keyword constrains inheritance and method overriding.
+
+Problems solved
+
+I eliminated confusion between reference type vs actual object during method calls.
+
+I clearly separated == from equals() and understood the need to align equals() with hashCode().
+
+I grasped why overriding toString() improves debugging and readability.
+
+Progress made
+
+I’m reasoning more at the JVM and runtime level, not just syntax.
+
+My Core Java concepts feel more cohesive and interview-ready.
+
+I’m gaining confidence explaining why Java behaves the way it does.
