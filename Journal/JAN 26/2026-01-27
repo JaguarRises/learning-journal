@@ -1,0 +1,5 @@
+Today I consolidated key Core Java OOP concepts with a strong focus on how Java behaves at compile time vs runtime. I reinforced my understanding of wrapper classes (auto‑boxing/unboxing, immutability, caching, and null pitfalls) and the abstract keyword—how abstract classes define contracts and enable runtime polymorphism.
+
+I deeply understood inner classes, especially anonymous inner classes: when and why they’re used, their rules and limitations, and how they support one‑time implementations. The biggest breakthrough was clearly visualizing memory behavior in upcasting (P obj = new Q())—why method access depends on the reference type while method execution depends on the object type. This resolved confusion around why child‑only methods aren’t visible without downcasting.
+
+Overall, today marked solid progress from surface‑level syntax to JVM‑level reasoning, improving both confidence and conceptual clarity.
