@@ -1,0 +1,47 @@
+Skills Learned
+
+Understood Lambda Expressions as a concise replacement for anonymous inner classes.
+
+Implemented functional interfaces with:
+
+void-returning lambdas (actions)
+
+value-returning lambdas (computations).
+
+Applied lambda syntax rules: type inference, single-expression simplification.
+
+Learned Exception Handling fundamentals:
+
+Difference between compile-time errors, runtime exceptions, and logical errors.
+
+Exception hierarchy (Throwable → Exception → RuntimeException).
+
+Checked vs unchecked exceptions.
+
+Core constructs: try, catch, finally, throw, throws.
+
+Problems Solved / Code Written
+
+Implemented custom functional interfaces and provided lambda implementations.
+
+Replaced anonymous inner classes with lambdas for cleaner, readable code.
+
+Returned computed values using lambdas.
+
+Conceptually handled runtime failures using structured exception handling.
+
+Key Insights
+
+Lambdas represent behavior, not objects with state.
+
+Functional interfaces are the bridge between OOP and functional programming.
+
+Exceptions are objects, propagate through the call stack, and integrate with OOP concepts like inheritance and polymorphism.
+
+Progress Made
+
+Transitioned confidently into modern Java (Java 8+) features.
+
+Strengthened readiness for Streams API and Scala functional concepts.
+
+Built a solid mental model connecting OOP, lambdas, and exception handling.
