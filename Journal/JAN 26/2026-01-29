@@ -1,0 +1,6 @@
+Today I made solid progress in my core Java and DSA journey.
+On the Java side, I strengthened my understanding of exception handling and resource management, especially using try‑with‑resources instead of finally blocks. I also went deeper into multithreading, moving step‑by‑step from extending Thread to implementing Runnable, which clarified the difference between a task and a thread. I experimented with sleep(), thread scheduling, priorities, and observed how concurrency actually behaves at runtime.
+
+In parallel, during my Pepcoding DSA practice, I continued sharpening my problem‑solving mindset, focusing on breaking problems down logically, applying the right data structures, and improving my confidence with standard patterns. Even when problems were challenging, I stayed consistent and methodical.
+
+Overall, today felt like a conceptual growth day—fewer topics, but deeper understanding. I’m becoming more comfortable with how Java works under the hood and more disciplined in how I approach DSA problems.
