@@ -1,0 +1,160 @@
+Today I strengthened my understanding of Java multithreading by working with Runnable, lambda expressions, and thread lifecycle control using start() and join(). I clearly saw how thread scheduling leads to unpredictable execution order and why separating a task from its execution is a best practice.
+
+I explored race conditions through a shared counter example and understood why counter++ is not atomic. I observed inconsistent results despite waiting for threads to finish and learned that coordination of execution does not imply thread safety. I gained clarity on shared mutable state, atomicity, and the need for proper synchronization.
+
+Today’s learning was focused on consolidating modern Java concepts and bridging them into Scala 2, with a strong emphasis on functional programming, immutability, and backend-relevant patterns.
+Rather than covering breadth, the goal was conceptual alignment and readiness.
+
+🔹 Java Concepts Reinforced
+1. Java Collections Framework
+
+Revisited List, Set, and Map with implementation details:
+
+ArrayList, HashSet, HashMap
+
+Emphasized programming to interfaces over implementations
+
+Clear understanding of:
+
+Uniqueness guarantees in Set
+
+Key replacement behavior in Map
+
+Order guarantees (or lack thereof)
+
+Iteration strategies:
+
+Iterator
+
+Enhanced for
+
+entrySet() vs keySet() (preferred for key–value access)
+
+2. Sorting & Comparators
+
+Implemented custom sorting logic using Comparator
+
+Refactored anonymous classes into lambda expressions
+
+Understood and corrected Comparator contract violations
+
+Clarified roles of:
+
+Comparable → natural ordering
+
+Comparator → external, flexible ordering
+
+3. Java Streams API
+
+Shifted from imperative loops to functional pipelines
+
+Built complete pipelines using:
+
+filter, map, reduce
+
+Primitive streams (mapToInt().sum())
+
+Key takeaways:
+
+Streams are lazy
+
+Streams are single-use
+
+Intermediate vs terminal operations
+
+Streams do not mutate the source
+
+Example (Java):
+
+int result = nums.stream()
+    .filter(n -> n % 2 == 0)
+    .mapToInt(n -> n * 3)
+    .sum();
+
+🔹 Scala 2 Foundations (Day-0)
+
+Scala was approached as a natural extension of Java 8+ functional concepts, not as a completely new language.
+
+Core Concepts Covered
+
+val vs var → immutability by default
+
+def vs function values
+
+if as an expression
+
+Collections: List, Seq
+
+Functional operations: map, filter, reduce
+
+case class as a replacement for Java POJOs
+
+Option instead of null / Optional
+
+Example (Scala):
+
+val result =
+  nums.filter(_ % 2 == 0)
+      .map(_ * 3)
+      .sum
+
+🔁 Java ↔ Scala Concept Mapping
+Java	Scala
+Stream API	Collection operations
+Optional<T>	Option[T]
+POJO	case class
+Mutable by default	Immutable by default
+null checks	Type-safe absence
+
+This mapping significantly reduced the learning curve and improved confidence.
+
+🧠 Key Learnings
+
+Functional programming improves clarity and safety by reducing mutation.
+
+Java Streams serve as an excellent mental bridge to Scala collections.
+
+Understanding data flow is more important than syntax memorization.
+
+Scala feels complex only until JVM and functional parallels are recognized.
+
+🎯 Interview Insights
+Java Collections
+
+Prefer interfaces over concrete implementations
+
+Use Set for uniqueness, Map for fast lookups
+
+HashMap replaces values for duplicate keys
+
+entrySet() iteration is more efficient than repeated get()
+
+Sorting
+
+Comparator must obey symmetry, transitivity, and equality
+
+Always handle equality (return 0)
+
+Prefer lambda-based comparators in modern Java
+
+Java uses TimSort (O(n log n))
+
+Streams
+
+Streams are lazy and single-use
+
+map transforms data, forEach introduces side effects
+
+Prefer primitive streams to avoid boxing
+
+Streams describe what to compute, not how
+
+Scala (Internship-Relevant)
+
+Emphasis on immutability and expressions
+
+Strong type inference with concise syntax
+
+Functional operations are first-class
+
+Reading and understanding existing code is the primary Day-1 skill
