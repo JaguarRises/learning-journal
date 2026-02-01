@@ -1,0 +1,73 @@
+🔹 Java (Learning Java 1 & 2)
+
+Revisited OOP fundamentals and object lifecycle.
+
+Understood multithreading, race conditions, and the need for immutability.
+
+Used Java as a baseline to contrast with Scala’s functional style.
+
+🔹 Scala Core Learnings
+
+Everything is an expression: if, code blocks, functions return values.
+
+Functions return the last expression; recursion replaces loops.
+
+Learned stack vs tail recursion, accumulators, and @tailrec.
+
+Implemented tail-recursive:
+
+Factorial
+
+Fibonacci (O(n))
+
+Prime check (O(√n))
+
+🔹 Evaluation Strategies
+
+Call-by-Value vs Call-by-Name:
+
+CBV evaluates once
+
+CBN evaluates on each use (lazy behavior)
+
+🔹 Default & Named Arguments
+
+Reduced boilerplate and method overloading.
+
+Improved readability and API safety.
+
+🔹 Scala OOP (Immutable Style)
+
+Constructor parameters ≠ fields unless marked val/var.
+
+Class body executes as constructor logic.
+
+Built immutable classes (Person, Writer, Novel, Counter).
+
+Methods return new instances, enabling safe chaining.
+
+🔹 Method Notations & Syntactic Sugar
+
+Operators are just methods (+, unary ops).
+
+Explored infix, prefix, postfix notation, and apply() (obj()).
+
+Key insight: multiple syntaxes, same method calls.
+
+🧠 Key Takeaways
+
+Recursion = loop logic + carried state.
+
+Tail recursion = compiler-optimized loops.
+
+Immutability simplifies reasoning.
+
+Scala’s complexity is mostly expressiveness, not logic.
+
+⚠️ Challenges
+
+Switching from loops → recursion.
+
+Moving from mutable Java OOP → immutable Scala OOP.
+
+Cognitive overload from learning language + paradigm together.
